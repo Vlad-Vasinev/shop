@@ -1,0 +1,32 @@
+.breedsList {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 209px);
+    grid-gap: 34px;
+}
+
+.breedsItem {
+    max-width: 209px;
+    height: 140px;
+    width: 100%;
+}
+
+.breedsItem img{
+    border-radius: 10%;
+    width: 100%;
+    object-fit: cover;
+    height: 140px;
+}
+
+.loadMore {
+    margin: 40px auto;
+    color: #ffffff;
+    background-color: #0093EF;
+    border-radius: 10px;
+    max-width: 190px;
+    width: 100%;
+    border: none;
+    padding: 10px 4px;
+    box-sizing: border-box;
+}
